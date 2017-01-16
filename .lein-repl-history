@@ -1,0 +1,8 @@
+(foo)
+(beaker.test/foo)
+(beakertest/foo)
+(beakertest.core/foo)
+(core/foo)
+(foo)
+(in-ns beakertest.core)
+quit
