@@ -1,0 +1,92 @@
+{
+    "beaker": "2",
+    "evaluators": [
+        {
+            "name": "HTML",
+            "plugin": "HTML",
+            "view": {
+                "cm": {
+                    "mode": "smartHTMLMode"
+                }
+            }
+        },
+        {
+            "name": "JavaScript",
+            "plugin": "JavaScript",
+            "view": {
+                "cm": {
+                    "mode": "javascript",
+                    "background": "#FFE0F0"
+                }
+            },
+            "languageVersion": "ES2015"
+        },
+        {
+            "name": "Clojure",
+            "plugin": "Clojure",
+            "imports": "com.twosigma.beaker.chart.Color\ncom.twosigma.beaker.chart.Filter\ncom.twosigma.beaker.BeakerProgressUpdate\ncom.twosigma.beaker.NamespaceClient\norg.joda.time.ReadablePartial",
+            "view": {
+                "cm": {
+                    "mode": "text/x-clojure"
+                }
+            },
+            "classPath": "/Users/dcmcshan/Documents/KaBOB/beakertest/target/beakertest-0.1.0-SNAPSHOT-standalone.jar",
+            "requirements": "beakertest.core"
+        }
+    ],
+    "cells": [
+        {
+            "id": "codeD4eit5",
+            "type": "code",
+            "evaluator": "Clojure",
+            "input": {
+                "body": [
+                    "(beakertest.core/foo 1)"
+                ]
+            },
+            "output": {
+                "state": {},
+                "result": {
+                    "type": "Results",
+                    "outputdata": [
+                        {
+                            "type": "out",
+                            "value": "1 Hello, World!\n"
+                        }
+                    ]
+                },
+                "selectedType": "Results",
+                "pluginName": "Clojure",
+                "shellId": "efdc5cd4-5533-4f24-b986-8bf6711003ce",
+                "elapsedTime": 73,
+                "height": 35
+            },
+            "evaluatorReader": true,
+            "lineCount": 1,
+            "isError": false
+        },
+        {
+            "id": "codexkdGn7",
+            "type": "code",
+            "evaluator": "Clojure",
+            "input": {
+                "body": [
+                    "beakertest.core/kabob"
+                ]
+            },
+            "output": {
+                "state": {},
+                "result": "This is KaBOB",
+                "selectedType": "Text",
+                "pluginName": "Clojure",
+                "shellId": "efdc5cd4-5533-4f24-b986-8bf6711003ce",
+                "elapsedTime": 61,
+                "height": 36
+            },
+            "evaluatorReader": true,
+            "lineCount": 1,
+            "isError": false
+        }
+    ],
+    "namespace": {}
+}
