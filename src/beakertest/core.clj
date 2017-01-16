@@ -1,5 +1,5 @@
 (ns beakertest.core
- (:require [clj-time.coerce :refer [from-date from-long to-date]]))
+ (:require [clj-time.coerce :refer :all]))
 
 (defn foo
   "I don't do a whole lot."

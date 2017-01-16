@@ -83,7 +83,7 @@
                 "selectedType": "BeakerDisplay",
                 "pluginName": "Clojure",
                 "shellId": "4ca0c52b-70a7-4b77-b3d3-38e496e2ee33",
-                "elapsedTime": 77,
+                "elapsedTime": 193,
                 "height": 52
             },
             "evaluatorReader": true,
